@@ -1,7 +1,7 @@
 import cv2
 from random import randrange
 # Giving it the trained data 
-trained_data=cv2.CascadeClassifier('h_f_d.xml')
+trained_data=cv2.CascadeClassifier('h_f_f_d.xml')
 path=input('Enter the path of the image with it\'s extension:')
 img=cv2.imread(path)
 
